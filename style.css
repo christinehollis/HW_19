@@ -1,0 +1,152 @@
+body {
+  background-color: rgb(248, 238, 231);
+}
+
+h1 {
+  font-family: NT Fabulous;
+}
+h2 {
+  font-size: 20px;
+  font-family: NT Fabulous;
+}
+h3 {
+  font-family: NT Fabulous;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+
+button {
+    background-color: rgb(201, 219, 233);
+    border-radius: 20px !important;
+    color: black;
+    font-size: 15px !important;
+    width: 170px;
+}
+.croppedHero img {
+  background-image: url(./Images/croppedME.jpg);
+  background-size: cover;
+}
+
+.heroContainer { 
+  display: flex;
+  width: 100%;
+  height: calc(100% - 25px);
+  position: center;
+  z-index: -3;
+}
+.name {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-family: NT Fabulous;
+  font-size: 40px;
+}
+.role {
+  position: absolute;
+  top: 70px;
+  left: 25px;
+}
+.email {
+  position: absolute;
+  top: 70px;
+  right: 25px;
+}
+.linkd {
+  position: absolute;
+  top: 110px;
+  right: 25px;
+}
+
+.caseImg1:hover {
+  opacity: 40%;
+}
+.caseImg2:hover {
+  opacity: 40%;
+}
+.caseImg3:hover {
+  opacity: 40%;
+}
+.caseImg2 {
+border-radius: 200px;
+  background: url(../UX_HW18/Images/doe.png);
+  background-position: left top;
+  background-repeat: repeat;
+  margin: none;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+}
+.caseImg1 {
+  border-radius: 200px;
+    background: url(../UX_HW18/Images/morningSun.jpeg);
+    background-position: left top;
+    background-repeat: repeat;
+    margin: none;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+  }
+.caseImg3 {
+    border-radius: 200px;
+      background: url(../UX_HW18/Images/map.webp);
+      background-position: left top;
+      background-repeat: repeat;
+      margin: none;
+      padding: 20px;
+      width: 150px;
+      height: 150px;
+    }
+
+
+.cardContainer {
+  display: flex;
+  text-align: center;
+  justify-content: left;
+}
+
+.caseStudies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.CMOA {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.dep {
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+
+
+.footer {
+  display: flex;
+  background-color: rgb(201, 219, 233);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 10px;
+  margin-right: 0;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  z-index: -3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 600){
+
+}
